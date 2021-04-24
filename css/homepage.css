@@ -1,0 +1,66 @@
+
+h1{
+    margin-bottom: 0;
+    font-size: 5em;
+}
+
+.banner{
+    position: relative;
+}
+.banner-layer{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(172, 168, 168, 0.3);
+}
+.banner-image{
+    width:100%;
+    height: 100%;
+}
+.banner-content{
+    color:whitesmoke;
+    position: absolute;
+    top:8em;
+    padding-left:1.5em;
+}
+h1 span{
+    display: block;
+}
+.banner-content p{
+    margin:0px;
+}
+.banner-content a{
+    color: whitesmoke;
+}
+.button {
+    margin-top:2em;
+    width: fit-content;
+    padding:1em;
+    border: 3px solid #c7884b;
+    border-radius: 5px;
+}
+
+.special-packages{
+    margin:6em auto 8em auto;
+    max-width: 900px;
+}
+.special-packages h2{
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 2em;
+}
+.card{
+    display: flex;
+    align-items: center;
+}
+.card-content{
+    background-color: wheat;
+    padding: 1em;
+    height: fit-content;
+    margin-left: -5em;
+}
+.special-packages img{
+    width: 60%;
+}

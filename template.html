@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <!-- Link here your CSS file. -->
+    <link rel="stylesheet" href="" />
+    <title>Holy Epic Steakhouse</title>
+</head>
+
+<body>
+    <!-- This is header of the page. -->
+    <header class="page-container">
+        <div class="logo">
+            <a href="#">
+                <img src="./images/general-logUsed.png" alt="Logo of Holy Epic steakhouse">
+            </a>
+        </div>
+        <nav>
+            <ul class="main-menu">
+                <li><a href="./Homepage.html">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Events/Bookings</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Careers</a></li>
+                <li class="dropdown"><a href="">Find Us</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- The main part of the page. -->
+    <main class="page-container">
+        <form action="" method="POST">
+            <div class="form">
+                <div class="form-heading">
+                    <h2>Heading of the form</h2>
+                    <p>Some paragraph if you want.</p>
+                </div>
+                <div class="form-element-wrapper">
+                    <div class="form-elements">
+                        <label for="name">Label Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Name of the field">
+                    </div>
+
+                    <div class="form-elements">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Full Name">
+                    </div>
+                </div>
+                <div class="form-element-wrapper">
+                    <div class="form-elements">
+                        <label for="title">DropDown Label:</label>
+                        <select id="title" name="title">
+                            <option value="" selected>value-1</option>
+                            <option value="">value2</option>
+                            <option value="">value3</option>
+                            <option value="">value4</option>
+                        </select>
+                    </div>
+                </div>
+                <fieldset class="individual-element">
+                    <legend>Name</legend>
+                    <input type="radio" id="" name="radio1" value="" checked>
+                    <label for="">Value1</label>
+                    <input type="radio" id="html" name="radio1" value="">
+                    <label for="">Value2</label>
+                </fieldset>
+                <fieldset class="individual-element">
+                    <legend>Name</legend>
+                    <input type="checkbox" id="" name="checkbox1" value="" checked>
+                    <label for="">Value1</label>
+                    <input type="checkbox" id="" name="checkbox1" value="html">
+                    <label for="">Value1</label>
+                </fieldset>
+                <div class="individual-element">
+                    <label for="">Text Area</label>
+                    <textarea name="" id="" rows="4">Text Content Here.
+                    </textarea>
+                </div>
+                <div class="individual-element">
+                    <input type="checkbox" id="iAgree" name="iAgree" value="Aggrement">
+                    <label for="iAgree">I agree to <a href="#"> terms and conditions </a>
+                        of your
+                        comapny.</label>
+                </div>
+                <div class="submit-section">
+                    <button class="submit-Button" type="submit" id="submit" name="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+
+    <!-- The footer of the page. -->
+    <footer id="footer" class="page-container">
+        <div class="footer">
+            <div class="footer-logo">
+                <img src="./images/general-logUsed.png" alt="Logo of Holy Epic steakhouse">
+                <p>
+                    Our steakhouse provides the best steak in town. We serve steaks inspired by chinese cuisine on the
+                    menu.
+                </p>
+            </div>
+            <div class="footer-contact">
+                <div class="footer-contact-container">
+                    <img class="icons" src="./images/general-auricular-of-phone.png" alt="Icon of phone">
+                    <div class="contact-details">
+                        <h3>Call us</h3>
+                        <h4>000-000-0000</h4>
+                    </div>
+                </div>
+                <div class="footer-contact-container">
+                    <img class="icons" src="./Images/general-placeholder.png" alt="Icon for locations">
+                    <div class="contact-details">
+                        <h3>Address</h3>
+                        <h4>1234 Queen Street, Toronto.</h4>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><img class="icons" src="/Images/general-facebook.png" alt="Facebook Icon"></a>
+                    <a href="#"><img class="icons" src="/Images/general-instagram.png" alt="Instagram Icon"></a>
+                    <a href="#"><img class="icons" src="/Images/general-twitter.png" alt="Twitter Icon"></a>
+                </div>
+            </div>
+            <div>
+                <h2>Newsletter</h2>
+                <p>Stay updated with all the special offers.</p>
+                <form class="subscription-form" action="homepage.html" method="POST">
+                    <div class="form-elements">
+                        <label class="hidden" for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email" />
+                    </div>
+                    <button type="submit"><img src="./Images/general-paper-plane.png" alt="Submit Button"></button>
+                </form>
+            </div>
+        </div>
+        <div class="line">
+        </div>
+        <div class="bottom-footer">
+            <p>&copy; 2021 Holy Epic Steakhouse. All Rights Reserved.</p>
+            <nav>
+                <ul class="bottom-menu">
+                    <li><a href="#">Home</a></li>
+                    <li class="sperator">|</li>
+                    <li><a href="#">Menu</a></li>
+                    <li class="sperator">|</li>
+                    <li><a href="#">Event/Bookings</a></li>
+                    <li class="sperator">|</li>
+                    <li><a href="#">Enjoy a game !</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
