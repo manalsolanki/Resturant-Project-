@@ -1,0 +1,71 @@
+#mainHeader {
+    background-color: #c7884b;
+    color: #000;
+    display: block;
+    padding: 25px;
+}
+
+#daily {
+    font-size: 2.5em;
+    color: #E6E5E5;
+    text-decoration: underline;
+}
+
+#specials {
+    font-size: 3.5em;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    border: 1px solid #c7884b;
+    width: 33.33%;
+    margin: 0 auto;
+}
+
+main {
+    text-align: center;
+}
+
+.specialTitle {
+    color: darkolivegreen;
+} 
+
+.specialImg {
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+/* Contest Page */
+#game {
+    background-color: gainsboro;
+    border: 2px solid #c7884b;
+}
+
+#startButton {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    background-color: #c7884b;
+    color: #E6E5E5;
+    border: 2px solid #E6E5E5;
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#startButton:hover {
+    background-color: #E6E5E5;
+    color: #c7884b;
+    border: 2px solid #c7884b;
+}
+
+.gameRules {
+    list-style-position: inside;
+}

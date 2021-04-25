@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/global.css"/>
+    <link rel="stylesheet" href="./css/global.css" />
     <!-- Link here your CSS file. -->
-    <link rel="stylesheet" href="./css/homepage.css"/>
+    <link rel="stylesheet" href="./css/contact-us.css">
+    <script src="./js/contact-us.js"></script>
     <title>Holy Epic Steakhouse</title>
 </head>
+
 <body>
     <!-- This is header of the page. -->
     <header class="page-container">
@@ -37,38 +40,81 @@
 
     <!-- The main part of the page. -->
     <main class="page-container">
-        <div class="banner">
-            <img class="banner-image" src="./images/homepage-Banner-Image.jpg" alt="Beef served with salad and a dip.">
-            <div class="banner-layer">
 
-            </div>
-            <div class="banner-content">
-                <h1>Steaks inspired by <span>Chinese Cusine</span></h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolor dolorem
-                    laudantium officia voluptas.</p>
-                <p> Aspernatur cupiditate ducimus eligendi reprehenderit!</p>
-                <div class="button">
-                    <a href="#">Order Now</a>
+        <div class="contact-us-content">
+            <h1>Contact Us</h1>
+            <p>We are also open for takeaway and delivery!</p>
+            <p>#000-000-0000</p>
+            <h3>Hours</h3>
+            <p>Open everyday from 1pm - 10pm</p>   
+
+        </div>
+        <form action="#" method="POST" name="contactUs">
+            <div class="form">
+                <div class="form-heading">
+                    <h2>Questions or concerns?</h2>
+                    <p>Let us know!</p>
+                </div>
+                <div class="form-element-wrapper">
+                
+
+                    <div class="form-elements">
+                        <label for="fname">First Name: <span>Required</span></label>
+                        <input type="text" id="fname" name="fname" placeholder="First Name">
+                    </div>
+
+                    <div class="form-elements">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname" placeholder="Last Name">
+                    </div>
+                 
+                </div>
+                <div class="form-element-wrapper">
+
+                    <div class="form-elements">
+                        <label for="email">* Email: <span>Required</span></label>
+                        <input type="email" id="email" name="email" placeholder="youremail@email.com">
+                    </div>
+
+                    <div class="form-elements">
+                        <label for="phone">* Phone Number: <span>Required</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="416-123-4567">
+                    </div>
+                </div>
+                <div class="form-element-wrapper">
+                    <div class="form-elements">
+                        <label for="date-of-visit">Date of your visit</label>
+                        <input type="date" id="start" name="trip-start"
+                        value="2021-03-20"
+                        min="2018-01-01" max="2022-12-31">
+                    </div>
+                </div>
+                
+             
+           
+                <div class="individual-element">
+                    <label for="comments">* Please leave your comments here! <span>Required</span></label>
+                    <textarea name="feedback"></textarea>
+                </div>
+                <div class="individual-element">
+                    <input type="checkbox" id="iAgree" name="iAgree">
+                    <label for="iAgree">I agree to <a href="#"> terms and conditions </a>
+                        of your
+                        comapny.</label>
+                </div>
+                <div class="submit-section">   
+                    <button class="submit-Button" type="submit" id="submit" name="submit">Submit</button>
                 </div>
             </div>
-        </div>
-        <div class="special-packages">
-            <h2>Special Packages</h2>
-            <div class="card">
-                <img src="./images/homepage-special-packages.jpg" alt="A table full of dishes">
-                <div class="card-content">
-                    <p>To know about exciting offers and special menu.</p>
-                    <div class="button">
-                        <a href="./menu_specials.html">Click Here</a>
-                    </div>
-                    <p>or</p>
-                    <p>Play a game to win the offers.</p>
-                    <div class="button">
-                        <a href="#">Contest</a>
-                    </div>
-                </div>
+        </form>
+        <div class="contact-us-content">
+            <div id="thanksMsg">
+                <h2>Thank you for your feedback!</h2>
+    
             </div>
         </div>
+ 
+     
     </main>
 
 

@@ -1,0 +1,40 @@
+
+
+/* Location Styles */
+
+h1{
+    border-bottom: 1px solid #000;
+    margin: 0.3em 0;
+
+}
+
+
+#map{
+    display: none;
+
+}
+
+
+#map-button {
+
+margin: 5px 0 10px 0    
+
+}
+
+.locations-content{
+    max-width: 750px;
+    margin: 0 auto;
+
+}
+
+.address, .hours{
+    font-weight: 900;
+
+}
+
+/* Image styling */
+
+.locations_image{
+    max-width: 500px;
+
+}

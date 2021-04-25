@@ -1,0 +1,12 @@
+#res-image {
+  display: block;
+  width: 900px;
+  height: 600px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+}
+#aboutus-text {
+  line-height: 300%;
+}

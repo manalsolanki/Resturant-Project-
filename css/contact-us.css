@@ -1,0 +1,33 @@
+h1 {
+    border-bottom: 1px solid #000;
+    margin: 0 auto 0.3em auto;
+
+}
+
+h3{
+    margin: 0.5em 0;
+
+}
+
+textarea{
+    resize: none;
+
+}
+
+.contact-us-content{
+    margin: 0 auto;
+    max-width: 750px;
+
+}
+
+#thanksMsg{
+    display: none;
+    text-align: center;
+}
+
+span{
+color: red;
+margin-left: 10px;
+font-size: 0.8em;
+}
+
