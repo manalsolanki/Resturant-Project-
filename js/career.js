@@ -40,7 +40,7 @@ function pageLoaded(){
     dishWasherSection.style.display = "none";
     foodDeliveryManSection.style.display = "none";
     masterChefSection.style.display = "block";
-    picture.src = "images/master-chef-tab.jfif";
+    picture.src = "./images/master-chef-tab.jfif";
   }
 
   function messageInfo(){
@@ -51,7 +51,7 @@ function pageLoaded(){
     supervisorSection.style.display = "none";
     dishWasherSection.style.display = "none";
     foodDeliveryManSection.style.display = "none";
-    picture.src = "images/Master-chef.jfif";
+    picture.src = "./images/career-Master-chef.jfif";
   }
   
   function juniorChefInfo(){
@@ -62,7 +62,7 @@ function pageLoaded(){
     dishWasherSection.style.display = "none";
     foodDeliveryManSection.style.display = "none";
     juniorChefSection.style.display = "block";
-    picture.src = "images/junior-chef-tab.jfif";
+    picture.src = "./images/junior-chef-tab.jfif";
   }
 
   function waiterInfo(){
@@ -95,7 +95,7 @@ function pageLoaded(){
     supervisorSection.style.display = "none";
     foodDeliveryManSection.style.display = "none";
     dishWasherSection.style.display = "block";
-    picture.src = "images/dish-washer.jfif";
+    picture.src = "./images/career-dish-washer.jpg";
   }
 
   function foodDeliveryManInfo(){
@@ -106,7 +106,7 @@ function pageLoaded(){
     supervisorSection.style.display = "none";
     dishWasherSection.style.display = "none";
     foodDeliveryManSection.style.display = "block";
-    picture.src = "images/food-delivery.jfif ";
+    picture.src = "./images/career-food-delivery-man.jpg ";
   }
 
 }

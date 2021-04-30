@@ -1,518 +1,514 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>Menu</title>
-  <link rel="stylesheet" type="text/css" href="./css/menu.css">
-  <link rel="stylesheet" type="text/css" href="./css/global.css">
-
-  <script type="text/javascript" src="js/menu.js"></script>
-</head>
-
-<body>
-  <header class="page-container">
-    <div class="logo">
-        <a href="./index.html">
-            <img src="./images/general-logUsed.png" alt="Logo of Holy Epic steakhouse">
-        </a>
-    </div>
-    <nav>
-        <ul class="main-menu">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./menu.html">Menu</a></li>
-            <li><a href="./events.html">Events/Bookings</a></li>
-            <li><a href="./giftcards.html">Gift Cards</a></li>
-            <li><a href="./career.html">Careers</a></li>
-            <li class="dropdown"><a href="">Find Us</a>
-                <ul class="sub-menu">
-                    <li><a href="./locations.html">Locations</a></li>
-                    <li><a href="./aboutus.html">About Us</a></li>
-                    <li><a href="./contact-us.html">Contact Us</a></li>
-                    <li><a href="./sitemap.html">Site Map</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main id="main">
-  <div class="page-container">
-    <h1>Menu</h1>
-    <nav id="navigation">
-      <h3 class="hidden">menu-navigation</h3>
-      <ul id="main-menu">
-        <li id="allBtn"><a href="#">all</a></li>
-        <li id="breakfastBtn"><a href="#">breakfast</a></li>
-        <li id="appetizerBtn"><a href="#">appetizer</a></li>
-        <li id="dinnerBtn"><a href="#">dinner</a></li>
-        <li id="dessertBtn"><a href="#">dessert</a></li>
-        <li id="drinkBtn"><a href="#">drink</a></li>
-        <li ><a href="./menu_specials.html">Specials</a></li>
-      </ul>
-    </nav>
-    <section id="menu-content">
-      <div id="food-pictures">
-        <div class = "flex-container">
-          <img src="./images/menu-flame-beef-don.jpg" alt="flame-beef-don" height="600">
-        </div>
+  <head>
+    <meta charset="utf-8">
+    <title>Menu</title>
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/menu.js" ></script>
+  </head>
+  <body>
+    <header id ="header" class="page-container">
+      <div class="logo">
+          <a href="./index.html">
+              <img src="images/general-logUsed.png" alt="Logo of Holy Epic steakhouse">
+          </a>
       </div>
-      <div id="breakfast">
-        <h2>Breakfast</h2>
-        <div class = "flex-container breakfast-content">
-          <div class="menu-item">
-            <div class="item-name">KARAAGE STEAK</div>
-            <div class="item-description">chinese fried chicken, egg, potatoes, AAA waygu steak</div>
+      <nav>
+          <ul class="main-menu">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./menu.html">Menu</a></li>
+              <li><a href="./events.html">Events/Bookings</a></li>
+              <li><a href="./giftcards.html">Gift Cards</a></li>
+              <li><a href="./career.html">Careers</a></li>
+              <li class="dropdown"><a href="">Find Us</a>
+                  <ul class="sub-menu">
+                      <li><a href="./locations.html">Locations</a></li>
+                      <li><a href="./aboutus.html">About Us</a></li>
+                      <li><a href="./contact-us.html">Contact Us</a></li>
+                      <li><a href="./sitemap.html">Site Map</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </nav>
+  </header>
+    <main id="main">
+      <div class="page-container">
+        <h1>Menu</h1>
+        <nav id="navigation">
+          <h3 class="hidden">menu-navigation</h3>
+          <ul id="main-menu">
+            <li id="allBtn"><a href="#">all</a></li>
+            <li id="breakfastBtn"><a href="#">breakfast</a></li>
+            <li id="appetizerBtn"><a href="#">appetizer</a></li>
+            <li id="dinnerBtn"><a href="#">dinner</a></li>
+            <li id="dessertBtn"><a href="#">dessert</a></li>
+            <li id="drinkBtn"><a href="#">drink</a></li>
+            <li id="Specials"><a href="./menu_specials.html">Specials</a></li>
+          </ul>
+        </nav>
+        <section id="menu-content">
+          <div id="food-pictures">
+            <div class = "flex-container">
+              <img  class="menu-img"src="./images/menu-flame-beef-don.jpg" alt="flame-beef-don" height="600">
+            </div>
           </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$16.5</div>
+          <div id="breakfast">
+            <h2 class="h2-menu">Breakfast</h2>
+            <div class = "flex-container breakfast-content">
+              <div class="menu-item">
+                <div class="item-name">KARAAGE STEAK</div>
+                <div class="item-description">chinese fried chicken, egg, potatoes, AAA waygu steak</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$16.5</div>
+              </div>
+            </div>
+            
+            <div class = "flex-container breakfast-content">
+              <div class="menu-item">
+                <div class="item-name">STEAK Pancake</div>
+                <div class="item-description">AAA waygu steak in dices, honey, our signiture mocha pancake</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$22</div>
+              </div>
+            </div>
+            <div class = "flex-container breakfast-content">
+              <div class="menu-item">
+                <div class="item-name">STEAK HAR GOW</div>
+                <div class="item-description">instead of your typical shrimp Har Gow, we replaced the shrimp filling with Kobe steak</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$8</div>
+              </div>
+            </div>
           </div>
-        </div>
-        
-        <div class = "flex-container breakfast-content">
-          <div class="menu-item">
-            <div class="item-name">STEAK Pancake</div>
-            <div class="item-description">AAA waygu steak in dices, honey, our signiture mocha pancake</div>
+          <div id="appetizer">
+            <h2 class="h2-menu">Appetizer</h2>
+            <div class = "flex-container appetizer-content">
+              <div class="menu-item">
+                <div class="item-name">STEAK DUMPLINGS</div>
+                <div class="item-description">AAA waygu steak Dumpling fillings with signature flaming sauce. Yum!</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$10</div>
+              </div>
+            </div>
+            <div class = "flex-container appetizer-content">
+              <div class="menu-item">
+                <div class="item-name">STEAK RICE CAKE</div>
+                <div class="item-description">Tradition rice cake, but with a twist with meat choices ;)</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$14.5</div>
+              </div>
+            </div>
+            <div class = "flex-container appetizer-content">
+              <div class="menu-item">
+                <div class="item-name">SWEET AND SOUR BEEF SOUP</div>
+                <div class="item-description">This is our daily soup item for today</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$11</div>
+              </div>
+            </div>
           </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$22</div>
+          <div class="dinner">
+            <h2 class="h2-menu">Dinner</h2>
+            <div class = "flex-container dinner-content">
+              <div class="menu-item">
+                <div class="item-name">CURRY BEEF KARAAGE BURGER</div>
+                <div class="item-description">This will be the best burger that you ever try in your life!Deep fried beef patty loaded with japanese style curry ;).</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$25</div>
+              </div>
+            </div>
+            <div class = "flex-container dinner-content">
+              <div class="menu-item">
+                <div class="item-name">STEAK CROSSAINT</div>
+                <div class="item-description">As you can tell from the logo, this dish is our signature meal. It has won over 100 prizes around the world.</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$30</div>
+              </div>
+            </div>
+            <div class = "flex-container dinner-content">
+              <div class="menu-item">
+                <div class="item-name">STEAK WITH CHEESE POTATO SAUCE</div>
+                <div class="item-description">aged fried steak with cheese mashed potato filling inside.</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$23</div>
+              </div>
+            </div>
+            <div class = "flex-container dinner-content">
+              <div class="menu-item">
+                <div class="item-name">SHIITAKE DON</div>
+                <div class="item-description">Tons of shiitake mushrooms, creamy mushroom sauce, truffle oil on the top of the rice bowl</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$10</div>
+              </div>
+            </div>
+            <div class = "flex-container dinner-content">
+              <div class="menu-item">
+                <div class="item-name">ORANGE STEAK</div>
+                <div class="item-description">Your typical orange chicken dish.But We add Wagyu beef to spice this dish up</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$19.5</div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class = "flex-container breakfast-content">
-          <div class="menu-item">
-            <div class="item-name">STEAK HAR GOW</div>
-            <div class="item-description">instead of your typical shrimp Har Gow, we replaced the shrimp filling with Kobe steak</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$8</div>
-          </div>
-        </div>
-      </div>
-      <div id="appetizer">
-        <h2>Appetizer</h2>
-        <div class = "flex-container appetizer-content">
-          <div class="menu-item">
-            <div class="item-name">STEAK DUMPLINGS</div>
-            <div class="item-description">AAA waygu steak Dumpling fillings with signature flaming sauce. Yum!</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$10</div>
-          </div>
-        </div>
-        <div class = "flex-container appetizer-content">
-          <div class="menu-item">
-            <div class="item-name">STEAK RICE CAKE</div>
-            <div class="item-description">Tradition rice cake, but with a twist with meat choices ;)</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$14.5</div>
-          </div>
-        </div>
-        <div class = "flex-container appetizer-content">
-          <div class="menu-item">
-            <div class="item-name">SWEET AND SOUR BEEF SOUP</div>
-            <div class="item-description">This is our daily soup item for today</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$11</div>
-          </div>
-        </div>
-      </div>
-      <div class="dinner">
-        <h2>Dinner</h2>
-        <div class = "flex-container dinner-content">
-          <div class="menu-item">
-            <div class="item-name">CURRY BEEF KARAAGE BURGER</div>
-            <div class="item-description">This will be the best burger that you ever try in your life!Deep fried beef patty loaded with japanese style curry ;).</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$25</div>
-          </div>
-        </div>
-        <div class = "flex-container dinner-content">
-          <div class="menu-item">
-            <div class="item-name">STEAK CROSSAINT</div>
-            <div class="item-description">As you can tell from the logo, this dish is our signature meal. It has won over 100 prizes around the world.</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$30</div>
-          </div>
-        </div>
-        <div class = "flex-container dinner-content">
-          <div class="menu-item">
-            <div class="item-name">STEAK WITH CHEESE POTATO SAUCE</div>
-            <div class="item-description">aged fried steak with cheese mashed potato filling inside.</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$23</div>
-          </div>
-        </div>
-        <div class = "flex-container dinner-content">
-          <div class="menu-item">
-            <div class="item-name">SHIITAKE DON</div>
-            <div class="item-description">Tons of shiitake mushrooms, creamy mushroom sauce, truffle oil on the top of the rice bowl</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$10</div>
-          </div>
-        </div>
-        <div class = "flex-container dinner-content">
-          <div class="menu-item">
-            <div class="item-name">ORANGE STEAK</div>
-            <div class="item-description">Your typical orange chicken dish.But We add Wagyu beef to spice this dish up</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$19.5</div>
-          </div>
-        </div>
-      </div>
-        <div class="dessert">
-          <h2>Dessert</h2>
-          <div class = "flex-container dessert-content">
+            <div class="dessert">
+              <h2 class="h2-menu">Dessert</h2>
+              <div class = "flex-container dessert-content">
+                <div class="menu-item">
+                  <div class="item-name">MOCHI DONUTS</div>
+                  <div class="item-description">exotic flavours: pineappe, creme brulee, sesame, padan,honey butter, and rasberry</div>
+                </div>
+                <div class="price">
+                  <div class="item-dashline"></div>
+                  <div class="item-price">$5 Each</div>
+                </div>
+              </div>
+              <div class = "flex-container dessert-content">
+                <div class="menu-item">
+                  <div class="item-name">KOREAN STYLE MACARONS</div>
+                  <div class="item-description">Flavours:corn cheese, cheese cracker, creme brulee, fruit loops, vanilla, and chocolate.</div>
+                </div>
+                <div class="price">
+                  <div class="item-dashline"></div>
+                  <div class="item-price">$5 each</div>
+                </div>
+              </div>
+              <div class = "flex-container dessert-content">
+                <div class="menu-item">
+                  <div class="item-name">NEW YORK PERFECT CHEESE</div>
+                  <div class="item-description">Famous japanese dessert that is imported from Japan.</div>
+                </div>
+                <div class="price">
+                  <div class="item-dashline"></div>
+                  <div class="item-price">$40</div>
+                </div>
+              </div>
+            </div>
+            <div class="drink">
+              <h2 class="h2-menu">Drink</h2>
+              <div class = "flex-container drink-content">
+                <div class="menu-item">
+                  <div class="item-name">BROWN SUGAR BUBBLE TEA WITH MILK CAP</div>
+                  <div class="item-description">Famous taiwan stlye milk tea.</div>
+                </div>
+                <div class="price">
+                  <div class="item-dashline"></div>
+                  <div class="item-price">$8</div>
+                </div>
+              </div>
+              <div class = "flex-container drink-content">
+                <div class="menu-item">
+                  <div class="item-name">STRAWBERRY LATTE WITH PANNA COTTA</div>
+                  <div class="item-description">Strawberry flavour latte on the top of panna cotta</div>
+                </div>
+                <div class="price">
+                  <div class="item-dashline"></div>
+                  <div class="item-price">$10</div>
+                </div>
+              </div>
+              <div class = "flex-container drink-content">
+                <div class="menu-item">
+                  <div class="item-name">CREME BRULEE GREEN TEA</div>
+                  <div class="item-description">Green tea with creme brulee topping.</div>
+                </div>
+                <div class="price">
+                  <div class="item-dashline"></div>
+                  <div class="item-price">$10</div>
+                </div>
+              </div>
+              <div class = "flex-container drink-content">
+                <div class="menu-item">
+                  <div class="item-name">HONG KONG STYLE MILK COFFEE</div>
+                  <div class="item-description">Old ol traditional hong kong style milk coffee to keep you feeling energic for the day.</div>
+                </div>
+                <div class="price">
+                  <div class="item-dashline"></div>
+                  <div class="item-price">$40</div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <div id="breakfast1">
+          <img class="menu-img" src="./images/menu-beef-pancake.jpg" alt="beef pancake" id="beef-pancake">
+          <h2 class="h2-menu">Breakfast</h2>
+          <div class = "flex-container">
             <div class="menu-item">
-              <div class="item-name">MOCHI DONUTS</div>
-              <div class="item-description">exotic flavours: pineappe, creme brulee, sesame, padan,honey butter, and rasberry</div>
+              <div class="item-name">KARAAGE STEAK</div>
+              <div class="item-description">chinese fried chicken, egg, potatoes, AAA waygu steak</div>
             </div>
             <div class="price">
               <div class="item-dashline"></div>
-              <div class="item-price">$5 Each</div>
+              <div class="item-price">$16.5</div>
             </div>
           </div>
-          <div class = "flex-container dessert-content">
+          <div class = "flex-container">
             <div class="menu-item">
-              <div class="item-name">KOREAN STYLE MACARONS</div>
-              <div class="item-description">Flavours:corn cheese, cheese cracker, creme brulee, fruit loops, vanilla, and chocolate.</div>
+              <div class="item-name">STEAK Pancake</div>
+              <div class="item-description">AAA waygu steak in dices, honey, our signiture mocha pancake</div>
             </div>
             <div class="price">
               <div class="item-dashline"></div>
-              <div class="item-price">$5 each</div>
+              <div class="item-price">$22</div>
             </div>
           </div>
-          <div class = "flex-container dessert-content">
+          <div class = "flex-container">
             <div class="menu-item">
-              <div class="item-name">NEW YORK PERFECT CHEESE</div>
-              <div class="item-description">Famous japanese dessert that is imported from Japan.</div>
-            </div>
-            <div class="price">
-              <div class="item-dashline"></div>
-              <div class="item-price">$40</div>
-            </div>
-          </div>
-        </div>
-        <div class="drink">
-          <h2>Drink</h2>
-          <div class = "flex-container drink-content">
-            <div class="menu-item">
-              <div class="item-name">BROWN SUGAR BUBBLE TEA WITH MILK CAP</div>
-              <div class="item-description">Famous taiwan stlye milk tea.</div>
+              <div class="item-name">STEAK HAR GOW</div>
+              <div class="item-description">instead of your typical shrimp Har Gow, we replaced the shrimp filling with Kobe steak</div>
             </div>
             <div class="price">
               <div class="item-dashline"></div>
               <div class="item-price">$8</div>
             </div>
           </div>
-          <div class = "flex-container drink-content">
+        </div>
+        <div id="appetizer1">
+          <img class="menu-img" src="./images/menu-steak-ricecake.JPG" alt="steak rice cake" id="steak-ricecake">
+          <h2 class="h2-menu">Appetizer</h2>
+          <div class = "flex-container">
             <div class="menu-item">
-              <div class="item-name">STRAWBERRY LATTE WITH PANNA COTTA</div>
-              <div class="item-description">Strawberry flavour latte on the top of panna cotta</div>
+              <div class="item-name">STEAK DUMPLINGS</div>
+              <div class="item-description">AAA waygu steak Dumpling fillings with signature flaming sauce. Yum!</div>
             </div>
             <div class="price">
               <div class="item-dashline"></div>
               <div class="item-price">$10</div>
             </div>
           </div>
-          <div class = "flex-container drink-content">
+          <div class = "flex-container">
             <div class="menu-item">
-              <div class="item-name">CREME BRULEE GREEN TEA</div>
-              <div class="item-description">Green tea with creme brulee topping.</div>
+              <div class="item-name">STEAK RICE CAKE</div>
+              <div class="item-description">Tradition rice cake, but with a twist with meat choices ;)</div>
+            </div>
+            <div class="price">
+              <div class="item-dashline"></div>
+              <div class="item-price">$14.5</div>
+            </div>
+          </div>
+          <div class = "flex-container">
+            <div class="menu-item">
+              <div class="item-name">SWEET AND SOUR BEEF SOUP</div>
+              <div class="item-description">This is our daily soup item for today</div>
+            </div>
+            <div class="price">
+              <div class="item-dashline"></div>
+              <div class="item-price">$11</div>
+            </div>
+          </div>
+        </div>
+        <div id="dinner1">
+          <img class="menu-img" src="./images/menu-curry-burger.jpg" alt="curry burger" id="curry-burger">
+          <h2>Dinner</h2>
+          <div class = "flex-container">
+            <div class="menu-item">
+              <div class="item-name">CURRY BEEF KARAAGE BURGER</div>
+              <div class="item-description">This will be the best burger that you ever try in your life!Deep fried beef patty loaded with japanese style curry ;).</div>
+            </div>
+            <div class="price">
+              <div class="item-dashline"></div>
+              <div class="item-price">$25</div>
+            </div>
+          </div>
+          <div class = "flex-container">
+            <div class="menu-item">
+              <div class="item-name">STEAK CROSSAINT</div>
+              <div class="item-description">As you can tell from the logo, this dish is our signature meal. It has won over 100 prizes around the world.</div>
+            </div>
+            <div class="price">
+              <div class="item-dashline"></div>
+              <div class="item-price">$30</div>
+            </div>
+          </div>
+          <div class = "flex-container">
+            <div class="menu-item">
+              <div class="item-name">STEAK WITH CHEESE POTATO SAUCE</div>
+              <div class="item-description">aged fried steak with cheese mashed potato filling inside.</div>
+            </div>
+            <div class="price">
+              <div class="item-dashline"></div>
+              <div class="item-price">$23</div>
+            </div>
+          </div>
+          <div class = "flex-container">
+            <div class="menu-item">
+              <div class="item-name">SHIITAKE DON</div>
+              <div class="item-description">Tons of shiitake mushrooms, creamy mushroom sauce, truffle oil on the top of the rice bowl</div>
             </div>
             <div class="price">
               <div class="item-dashline"></div>
               <div class="item-price">$10</div>
             </div>
           </div>
-          <div class = "flex-container drink-content">
+          <div class = "flex-container">
             <div class="menu-item">
-              <div class="item-name">HONG KONG STYLE MILK COFFEE</div>
-              <div class="item-description">Old ol traditional hong kong style milk coffee to keep you feeling energic for the day.</div>
+              <div class="item-name">ORANGE STEAK</div>
+              <div class="item-description">Your typical orange chicken dish.But We add Wagyu beef to spice this dish up</div>
             </div>
             <div class="price">
               <div class="item-dashline"></div>
-              <div class="item-price">$40</div>
+              <div class="item-price">$19.5</div>
             </div>
           </div>
         </div>
-    </section>
-    <div id="breakfast1">
-      <img src="./images/menu-beef-pancake.jpg" alt="beef pancake" id="beef-pancake">
-      <h2>Breakfast</h2>
-      <div class = "flex-container">
-        <div class="menu-item">
-          <div class="item-name">KARAAGE STEAK</div>
-          <div class="item-description">chinese fried chicken, egg, potatoes, AAA waygu steak</div>
-        </div>
-        <div class="price">
-          <div class="item-dashline"></div>
-          <div class="item-price">$16.5</div>
-        </div>
-      </div>
-      <div class = "flex-container">
-        <div class="menu-item">
-          <div class="item-name">STEAK Pancake</div>
-          <div class="item-description">AAA waygu steak in dices, honey, our signiture mocha pancake</div>
-        </div>
-        <div class="price">
-          <div class="item-dashline"></div>
-          <div class="item-price">$22</div>
-        </div>
-      </div>
-      <div class = "flex-container">
-        <div class="menu-item">
-          <div class="item-name">STEAK HAR GOW</div>
-          <div class="item-description">instead of your typical shrimp Har Gow, we replaced the shrimp filling with Kobe steak</div>
-        </div>
-        <div class="price">
-          <div class="item-dashline"></div>
-          <div class="item-price">$8</div>
-        </div>
-      </div>
-    </div>
-    <div id="appetizer1">
-      <img src="./images/menu-steak-ricecake.JPG" alt="steak rice cake" id="steak-ricecake">
-      <h2>Appetizer</h2>
-      <div class = "flex-container">
-        <div class="menu-item">
-          <div class="item-name">STEAK DUMPLINGS</div>
-          <div class="item-description">AAA waygu steak Dumpling fillings with signature flaming sauce. Yum!</div>
-        </div>
-        <div class="price">
-          <div class="item-dashline"></div>
-          <div class="item-price">$10</div>
-        </div>
-      </div>
-      <div class = "flex-container">
-        <div class="menu-item">
-          <div class="item-name">STEAK RICE CAKE</div>
-          <div class="item-description">Tradition rice cake, but with a twist with meat choices ;)</div>
-        </div>
-        <div class="price">
-          <div class="item-dashline"></div>
-          <div class="item-price">$14.5</div>
-        </div>
-      </div>
-      <div class = "flex-container">
-        <div class="menu-item">
-          <div class="item-name">SWEET AND SOUR BEEF SOUP</div>
-          <div class="item-description">This is our daily soup item for today</div>
-        </div>
-        <div class="price">
-          <div class="item-dashline"></div>
-          <div class="item-price">$11</div>
-        </div>
-      </div>
-    </div>
-    <div id="dinner1">
-      <img src="./images/menu-curry-burger.jpg" alt="curry burger" id="curry-burger">
-      <h2>Dinner</h2>
-      <div class = "flex-container">
-        <div class="menu-item">
-          <div class="item-name">CURRY BEEF KARAAGE BURGER</div>
-          <div class="item-description">This will be the best burger that you ever try in your life!Deep fried beef patty loaded with japanese style curry ;).</div>
-        </div>
-        <div class="price">
-          <div class="item-dashline"></div>
-          <div class="item-price">$25</div>
-        </div>
-      </div>
-      <div class = "flex-container">
-        <div class="menu-item">
-          <div class="item-name">STEAK CROSSAINT</div>
-          <div class="item-description">As you can tell from the logo, this dish is our signature meal. It has won over 100 prizes around the world.</div>
-        </div>
-        <div class="price">
-          <div class="item-dashline"></div>
-          <div class="item-price">$30</div>
-        </div>
-      </div>
-      <div class = "flex-container">
-        <div class="menu-item">
-          <div class="item-name">STEAK WITH CHEESE POTATO SAUCE</div>
-          <div class="item-description">aged fried steak with cheese mashed potato filling inside.</div>
-        </div>
-        <div class="price">
-          <div class="item-dashline"></div>
-          <div class="item-price">$23</div>
-        </div>
-      </div>
-      <div class = "flex-container">
-        <div class="menu-item">
-          <div class="item-name">SHIITAKE DON</div>
-          <div class="item-description">Tons of shiitake mushrooms, creamy mushroom sauce, truffle oil on the top of the rice bowl</div>
-        </div>
-        <div class="price">
-          <div class="item-dashline"></div>
-          <div class="item-price">$10</div>
-        </div>
-      </div>
-      <div class = "flex-container">
-        <div class="menu-item">
-          <div class="item-name">ORANGE STEAK</div>
-          <div class="item-description">Your typical orange chicken dish.But We add Wagyu beef to spice this dish up</div>
-        </div>
-        <div class="price">
-          <div class="item-dashline"></div>
-          <div class="item-price">$19.5</div>
-        </div>
-      </div>
-    </div>
-      <div id="dessert1">
-        <img src="./images/menu-Mochi-donuts.jpg" alt="mochi donuts" id="mochi-donuts">
-        <h2>Dessert</h2>
-        <div class = "flex-container">
-          <div class="menu-item">
-            <div class="item-name">MOCHI DONUTS</div>
-            <div class="item-description">exotic flavours: pineappe, creme brulee, sesame, padan,honey butter, and rasberry</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$5 Each</div>
-          </div>
-        </div>
-        <div class = "flex-container">
-          <div class="menu-item">
-            <div class="item-name">KOREAN STYLE MACARONS</div>
-            <div class="item-description">Flavours:corn cheese, cheese cracker, creme brulee, fruit loops, vanilla, and chocolate.</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$5 each</div>
-          </div>
-        </div>
-        <div class = "flex-container">
-          <div class="menu-item">
-            <div class="item-name">NEW YORK PERFECT CHEESE</div>
-            <div class="item-description">Famous japanese dessert that is imported from Japan.</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$40</div>
-          </div>
-        </div>
-      </div>
-      <div id="drink1">
-        <img src="./images/menu-creme-tea.jpg" alt="creme tea" id="creme-tea">
-        <h2>Drink</h2>
-        <div class = "flex-container">
-          <div class="menu-item">
-            <div class="item-name">BROWN SUGAR BUBBLE TEA WITH MILK CAP</div>
-            <div class="item-description">Famous taiwan stlye milk tea.</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$8</div>
-          </div>
-        </div>
-        <div class = "flex-container">
-          <div class="menu-item">
-            <div class="item-name">STRAWBERRY LATTE WITH PANNA COTTA</div>
-            <div class="item-description">Strawberry flavour latte on the top of panna cotta</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$10</div>
-          </div>
-        </div>
-        <div class = "flex-container">
-          <div class="menu-item">
-            <div class="item-name">CREME BRULEE GREEN TEA</div>
-            <div class="item-description">Green tea with creme brulee topping.</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$10</div>
-          </div>
-        </div>
-        <div class = "flex-container">
-          <div class="menu-item">
-            <div class="item-name">HONG KONG STYLE MILK COFFEE</div>
-            <div class="item-description">Old ol traditional hong kong style milk coffee to keep you feeling energic for the day.</div>
-          </div>
-          <div class="price">
-            <div class="item-dashline"></div>
-            <div class="item-price">$40</div>
-          </div>
-        </div>
-      </div>
-  </div>
-</main>
-<footer id="footer" class="page-container">
-  <div class="footer">
-      <div class="footer-logo">
-          <img src="./images/general-logUsed.png" alt="Logo of Holy Epic steakhouse">
-          <p>
-              Our steakhouse provides the best steak in town. We serve steaks inspired by chinese cuisine on the menu.
-          </p>
-      </div>
-      <div class="footer-contact">
-          <div class="footer-contact-container">
-              <img class="icons" src="./images/general-auricular-of-phone.png" alt="Icon of phone">
-              <div class="contact-details">
-                  <h3>Call us</h3>
-                  <h4>000-000-0000</h4>
+          <div id="dessert1">
+            <img class="menu-img" src="./images/menu-Mochi-donuts.jpg" alt="mochi donuts" id="mochi-donuts">
+            <h2 class="h2-menu">Dessert</h2>
+            <div class = "flex-container">
+              <div class="menu-item">
+                <div class="item-name">MOCHI DONUTS</div>
+                <div class="item-description">exotic flavours: pineappe, creme brulee, sesame, padan,honey butter, and rasberry</div>
               </div>
-          </div>
-          <div class="footer-contact-container">
-              <img class="icons" src="./images/general-placeholder.png" alt="Icon for locations">
-              <div class="contact-details">
-                  <h3>Address</h3>
-                  <h4>203 Humber College Blvd</h4>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$5 Each</div>
               </div>
-          </div>
-          <div class="social-icons">
-              <a href="#"><img class="icons" src="./images/general-facebook.png" alt="Facebook Icon"></a>
-              <a href="#"><img class="icons" src="./images/general-instagram.png" alt="Instagram Icon"></a>
-              <a href="#"><img class="icons" src="./images/general-twitter.png" alt="Twitter Icon"></a>
-          </div>  
-      </div>
-      <div>
-          <h2>Newsletter</h2>
-          <p>Stay updated with all the special offers.</p>
-          <form class="subscription-form" action="homepage.html" method="POST">
-              <div class="form-elements">
-                  <label  class="hidden" for="email">Email</label>
-                  <input type="email" id="email" name="email" placeholder="Email" />
+            </div>
+            <div class = "flex-container">
+              <div class="menu-item">
+                <div class="item-name">KOREAN STYLE MACARONS</div>
+                <div class="item-description">Flavours:corn cheese, cheese cracker, creme brulee, fruit loops, vanilla, and chocolate.</div>
               </div>
-              <button type="submit"><img src="./images/general-paper-plane.png" alt="Submit Button"></button>
-          </form>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$5 each</div>
+              </div>
+            </div>
+            <div class = "flex-container">
+              <div class="menu-item">
+                <div class="item-name">NEW YORK PERFECT CHEESE</div>
+                <div class="item-description">Famous japanese dessert that is imported from Japan.</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$40</div>
+              </div>
+            </div>
+          </div>
+          <div id="drink1">
+            <img src="./images/menu-creme-tea.jpg" alt="creme tea" id="creme-tea">
+            <h2 class="h2-menu">Drink</h2>
+            <div class = "flex-container">
+              <div class="menu-item">
+                <div class="item-name">BROWN SUGAR BUBBLE TEA WITH MILK CAP</div>
+                <div class="item-description">Famous taiwan stlye milk tea.</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$8</div>
+              </div>
+            </div>
+            <div class = "flex-container">
+              <div class="menu-item">
+                <div class="item-name">STRAWBERRY LATTE WITH PANNA COTTA</div>
+                <div class="item-description">Strawberry flavour latte on the top of panna cotta</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$10</div>
+              </div>
+            </div>
+            <div class = "flex-container">
+              <div class="menu-item">
+                <div class="item-name">CREME BRULEE GREEN TEA</div>
+                <div class="item-description">Green tea with creme brulee topping.</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$10</div>
+              </div>
+            </div>
+            <div class = "flex-container">
+              <div class="menu-item">
+                <div class="item-name">HONG KONG STYLE MILK COFFEE</div>
+                <div class="item-description">Old ol traditional hong kong style milk coffee to keep you feeling energic for the day.</div>
+              </div>
+              <div class="price">
+                <div class="item-dashline"></div>
+                <div class="item-price">$40</div>
+              </div>
+            </div>
+          </div>
       </div>
-  </div>
-  <div class="line">
-  </div>
-  <div class="bottom-footer">
-      <p>&copy; 2021 Holy Epic Steakhouse. All Rights Reserved.</p>
-     <nav>
-          <ul class="bottom-menu">
-              <li><a href="./index.html">Home</a></li>
-              <li class="sperator">|</li>
-              <li><a href="./menu.html">Menu</a></li>
-              <li class="sperator">|</li>
-              <li><a href="./events.html">Event/Bookings</a></li>
-              <li class="sperator">|</li>
-              <li><a href="./contest.html">Enjoy a game !</a></li>
-          </ul>
-      </nav>
-  </div>
-</footer>
-</body>
-
+    </main>
+    <footer id="footer" class="page-container">
+      <div class="footer">
+          <div class="footer-logo">
+              <img src="./images/general-logUsed.png" alt="Logo of Holy Epic steakhouse">
+              <p>
+                  Our steakhouse provides the best steak in town. We serve steaks inspired by chinese cuisine on the menu.
+              </p>
+          </div>
+          <div class="footer-contact">
+              <div class="footer-contact-container">
+                  <img class="icons" src="./images/general-auricular-of-phone.png" alt="Icon of phone">
+                  <div class="contact-details">
+                      <h3>Call us</h3>
+                      <h4>000-000-0000</h4>
+                  </div>
+              </div>
+              <div class="footer-contact-container">
+                  <img class="icons" src="./images/general-placeholder.png" alt="Icon for locations">
+                  <div class="contact-details">
+                      <h3>Address</h3>
+                      <h4>1234 Queen Street, Toronto.</h4>
+                  </div>
+              </div>
+              <div class="social-icons">
+                  <a href="#"><img class="icons" src="./images/general-facebook.png" alt="Facebook Icon"></a>
+                  <a href="#"><img class="icons" src="./images/general-instagram.png" alt="Instagram Icon"></a>
+                  <a href="#"><img class="icons" src="./images/general-twitter.png" alt="Twitter Icon"></a>
+              </div>  
+          </div>
+          <div>
+              <h2>Newsletter</h2>
+              <p>Stay updated with all the special offers.</p>
+              <form class="subscription-form" action="homepage.html" method="POST">
+                  <div class="form-elements">
+                      <label  class="hidden" for="email">Email</label>
+                      <input type="email" id="email" name="email" placeholder="Email" />
+                  </div>
+                  <button type="submit"><img src="./images/general-paper-plane.png" alt="Submit Button"></button>
+              </form>
+          </div>
+      </div>
+      <div class="line">
+      </div>
+      <div class="bottom-footer">
+          <p>&copy; 2021 Holy Epic Steakhouse. All Rights Reserved.</p>
+         <nav>
+              <ul class="bottom-menu">
+                  <li><a href="./index.html">Home</a></li>
+                  <li class="sperator">|</li>
+                  <li><a href="./menu.html"></a>Menu</a></li>
+                  <li class="sperator">|</li>
+                  <li><a href="./events.html">Event/Bookings</a></li>
+                  <li class="sperator">|</li>
+                  <li><a href="./contest.html">Enjoy a game !</a></li>
+              </ul>
+          </nav>
+      </div>
+  </footer>
+  </body>
 </html>

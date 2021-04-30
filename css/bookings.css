@@ -82,7 +82,11 @@ input,select{
 
 /* style on icons */
 .icon-container {
-  margin-bottom: 5px;
   padding: 7px 0;
   font-size: 24px;
+}
+
+.icon-container img {
+  height: 40px;
+  width: 46px;
 }
