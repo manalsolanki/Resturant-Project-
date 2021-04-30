@@ -1,4 +1,5 @@
 # Restaurant Project Definition
+## Link to github hosted Page : https://manalsolanki.github.io/Resturant-Project-/index.html
 
 ### Team name:
 Team Sizzling
@@ -45,3 +46,5 @@ Our steakhouse provides the best steak in town. We serve steaks inspired by chin
 
 ## Some Images Link:
 https://docs.google.com/spreadsheets/d/1KLOdblXpAD1o-EUG_L2go6RR2LX7chunpIK0klawnR8/edit?usp=drive_web&ouid=104928228437290035749
+
+
