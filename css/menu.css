@@ -310,3 +310,8 @@ footer h3,h4{
 .bottom-menu li {
   padding-right: 1em;
 }
+input, select {
+  display: block;
+  padding: 0.7em;
+  width: 300px;
+}

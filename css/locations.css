@@ -16,8 +16,12 @@ h1{
 
 
 #map-button {
-
-margin: 5px 0 10px 0    
+    background-color: #c7884b;
+    border-color: #c7884b;
+padding:0.5em 2em;
+border-radius: 5px;
+margin: 5px 0 10px 0 ;
+font-size: 1.3em;   
 
 }
 
