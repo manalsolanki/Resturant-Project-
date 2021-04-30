@@ -1,10 +1,8 @@
-// window.onload = function (){
-//     var subscriptionForm = document.subscribeBtn ;
-//     subscriptionForm.onclick = thnksMsg;
-//     function thnksMsg()
-//     {
-    
-//         console.log("he")
-//        return false
-//     }
-// }
+window.onload = function (){
+ var form = document.forms.subscriptionForm;
+ form.onsubmit = function(){
+   form.innerHTML = "Thanks for Subscribing."
+     return false;
+ }
+
+}

@@ -5,6 +5,7 @@
     <title>Career</title>
     <link rel="stylesheet" type="text/css" href="./css/career.css">
     <link rel="stylesheet" type="text/css" href="./css/global.css">
+    <script type="text/javascript" src="./js/general.js"></script>
 
     <script type="text/javascript" src="./js/career.js" ></script>
   </head>
@@ -240,13 +241,13 @@
           <div>
               <h2>Newsletter</h2>
               <p>Stay updated with all the special offers.</p>
-              <form class="subscription-form" action="homepage.html" method="POST">
-                  <div class="form-elements">
-                      <label  class="hidden" for="email">Email</label>
-                      <input type="email" id="email" name="email" placeholder="Email" />
-                  </div>
-                  <button type="submit"><img src="./images/general-paper-plane.png" alt="Submit Button"></button>
-              </form>
+              <form id="subscriptionForm"class="subscription-form"  >
+                <div class="form-elements">
+                    <label class="hidden" for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" />
+                </div>
+                <button id="submitBtn"type="submit"><img src="./Images/general-paper-plane.png" alt="Submit Button"></button>
+            </form>
           </div>
       </div>
       <div class="line">
