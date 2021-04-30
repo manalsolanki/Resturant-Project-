@@ -1,0 +1,104 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* style on wrapper container */
+.wrapper-container{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.column-1, .column-2, .column-3{
+  flex: 25%;
+  padding: 0 10px;
+  margin: 0 5px;
+}
+
+.img-col{
+  height: 250px;
+  width: 340px;
+  margin-top: 15px;
+}
+
+/* style on card */
+.card{
+  padding: 0 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px 0 #000;
+  background-color: #f1f1f1;
+  height: 37em;
+}
+
+.card-title{
+  color:#c7884b;
+  font-size: 1.6em;
+}
+
+.card-icons{
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+}
+
+.card-day, .card-time{
+  flex: 1;
+  margin-top: 0;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.card-desc{
+  display: flex;
+  width: auto;
+}
+
+.card-btn{
+  background-color: #221f26;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  font-size: 1em;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.card-btn span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card-btn span:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.card-btn:hover span {
+  padding-right: 25px;
+}
+
+.card-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .wrapper-container{
+    max-width: 1000px;
+  }
+  .img-col{
+    height: 200px;
+    width: 300px;
+  }
+  .column-1, .column-2, .column-3{
+    padding: 0 5px;
+    margin: 0 2px;
+  }
+}

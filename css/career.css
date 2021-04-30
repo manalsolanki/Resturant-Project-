@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+html{
+  box-sizing: border-box;
+}
+
+*,*::before,*::after{
+  box-sizing: inherit;
+}
+
+body{
+  font:normal 16px 'open sans', sans-serif;
+  color:#000;
+  line-height: 1.2;
+  margin:0;
+}
+
+.hidden{
+  position:absolute;
+  left:-100000px;
+}
+
+.page-container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#header{
+  margin-bottom:2em;
+  padding:2em;
+  background-color:#FAFAFF;
+}
+
+#pic{
+  display:inline-block;
+  width:47.5%;
+}
+
+ul#main-menu{
+  padding: 0;
+  margin-top: -1em;
+  margin-bottom: 3em;
+}
+
+#main-menu li{
+  display:inline-block;
+  margin-right:2em;
+}
+
+#main-menu a{
+  text-decoration: none;
+  color:#c7884b;
+  font-family: 'ZCOOL XiaoWei';
+  font-size:20px;
+  margin-right: 1.8em;
+  font-weight: bold;
+}
+
+#main-menu a:hover{
+  text-decoration: underline;
+  color:red;
+}
+
+
+
+.article{
+  float:right;
+  width:47.5%;
+  line-height: 2em;
+  margin-top: -1em;
+}
+
+.article h1{
+  font-size: 31px;
+  margin-bottom: 1.5em;
+}
+
+.article p{
+  font-size: 24px;
+  line-height: 2em;
+}
+
+.article-hidden{
+  display:none;
+}
+
+#menu{
+  border:1px solid #c7884b;
+  position:relative;
+}
+
+#menu li{
+  display:flex;
+  border:1px solid #c7884b;
+  padding-bottom:2em;
+}
+#job-listing{
+  margin-top:2em;
+}
+
+#job-listing ul{
+  margin:0;
+  padding:0;
+}
+
+.position{
+  width:68%;
+  margin-left:2%;
+}
+
+.position a,.location a{
+  text-decoration: none;
+  color:#000;
+  font-family: 'ZCOOL XiaoWei'
+}
+
+.position a:hover,.location a:hover{
+  text-decoration: underline;
+  color:red;
+}
+
+.position a:visited,.location a:visited{
+  font-family: 'ZCOOL XiaoWei','open sans';
+}
+
+.location{
+  width:28%;
+  padding-top:2em;
+}
+
+
+
+#footer{
+  margin-top:2em;
+  padding:2em;
+  background-color:#FAFAFF;
+}

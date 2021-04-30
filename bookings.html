@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/bookings.css" />
+  <script src="js/bookings.js" charset="utf-8"></script>
+  <title>Holy Epic Steakhouse</title>
+</head>
+
+<body>
+  <!-- This is header of the page. -->
+  <header class="page-container">
+    <div class="logo">
+        <a href="index.html">
+            <img src="./images/general-logUsed.png" alt="Logo of Holy Epic steakhouse">
+        </a>
+    </div>
+    <nav>
+        <ul class="main-menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./events.html">Events/Bookings</a></li>
+            <li><a href="./giftcards.html">Gift Cards</a></li>
+            <li><a href="./career.html">Careers</a></li>
+            <li class="dropdown"><a href="">Find Us</a>
+                <ul class="sub-menu">
+                    <li><a href="./locations.html">Locations</a></li>
+                    <li><a href="./aboutus.html">About Us</a></li>
+                    <li><a href="./contact-us.html">Contact Us</a></li>
+                    <li><a href="./sitemap.html">Site Map</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+  <!-- The main part of the page. -->
+  <div class="wrapper-bookings">
+    <!-- form for bookings. -->
+    <form action="#" method="POST" name="booking">
+      <div class="form-bookings">
+          <div class="form-heading-bookings">
+              <h2>Start your booking</h2>
+              <p>see you soon!</p>
+              <div id="required-field"></div>
+          </div>
+          <div class="form-element-wrapper-bookings">
+              <div class="form-elements-bookings">
+                  <label for="fname">First Name: <span>Required</span></label>
+                  <input type="text" id="fname" name="fname" placeholder="First Name">
+              </div>
+              <div class="form-elements-bookings">
+                  <label for="lname">Last Name:</label>
+                  <input type="text" id="lname" name="lname" placeholder="Last Name">
+              </div>
+          </div>
+          <div class="form-element-wrapper-bookings">
+              <div class="form-elements-bookings">
+                  <label for="email">* Email: <span>Required</span></label>
+                  <input type="email" id="email" name="email" placeholder="youremail@email.com">
+              </div>
+              <div class="form-elements-bookings">
+                  <label for="phone">* Phone Number: <span>Required</span></label>
+                  <input type="tel" id="phone" name="phone" placeholder="416-123-4567">
+              </div>
+          </div>
+          <div class="form-elements-bookings">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+          </div>
+          <div class="form-element-wrapper-bookings">
+            <div class="form-elements-bookings">
+              <label for="cname">*Name on Card: <span>Required</span></label>
+              <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            </div>
+            <div class="form-elements-bookings">
+              <label for="ccnum">*Credit card number: <span>Required</span></label>
+              <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            </div>
+          </div>
+
+          <div class="form-element-wrapper-bookings">
+            <div class="form-elements-bookings">
+              <label for="expmonth">*Exp Month: <span>Required</span></label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            </div>
+            <div class="form-elements-bookings">
+              <label for="expyear">*Exp Year: <span>Required</span></label>
+              <input type="text" id="expyear" name="expyear" placeholder="2018">
+            </div>
+          </div>
+          <div class="form-element-wrapper-bookings">
+            <div class="form-elements-bookings">
+              <label for="cvv">*CVV: <span>Required</span></label>
+              <input type="text" id="cvv" name="cvv" placeholder="352">
+            </div>
+          </div>
+          <div class="submit-section-bookings">
+              <button class="submit-Button-bookings" type="submit" id="submit" name="submit">Submit</button>
+          </div>
+      </div>
+    </form>
+  </div>
+  <!-- The footer of the page. -->
+  <footer id="footer" class="page-container">
+    <div class="footer">
+        <div class="footer-logo">
+            <img src="./images/general-logUsed.png" alt="Logo of Holy Epic steakhouse">
+            <p>
+                Our steakhouse provides the best steak in town. We serve steaks inspired by chinese cuisine on the menu.
+            </p>
+        </div>
+        <div class="footer-contact">
+            <div class="footer-contact-container">
+                <img class="icons" src="./images/general-auricular-of-phone.png" alt="Icon of phone">
+                <div class="contact-details">
+                    <h3>Call us</h3>
+                    <h4>000-000-0000</h4>
+                </div>
+            </div>
+            <div class="footer-contact-container">
+                <img class="icons" src="./images/general-placeholder.png" alt="Icon for locations">
+                <div class="contact-details">
+                    <h3>Address</h3>
+                    <h4>203 Humber College Blvd</h4>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img class="icons" src="./images/general-facebook.png" alt="Facebook Icon"></a>
+                <a href="#"><img class="icons" src="./images/general-instagram.png" alt="Instagram Icon"></a>
+                <a href="#"><img class="icons" src="./images/general-twitter.png" alt="Twitter Icon"></a>
+            </div>  
+        </div>
+        <div>
+            <h2>Newsletter</h2>
+            <p>Stay updated with all the special offers.</p>
+            <form class="subscription-form" action="homepage.html" method="POST">
+                <div class="form-elements">
+                    <label  class="hidden" for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" />
+                </div>
+                <button type="submit"><img src="./images/general-paper-plane.png" alt="Submit Button"></button>
+            </form>
+        </div>
+    </div>
+    <div class="line">
+    </div>
+    <div class="bottom-footer">
+        <p>&copy; 2021 Holy Epic Steakhouse. All Rights Reserved.</p>
+       <nav>
+            <ul class="bottom-menu">
+                <li><a href="./index.html">Home</a></li>
+                <li class="sperator">|</li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li class="sperator">|</li>
+                <li><a href="./events.html">Event/Bookings</a></li>
+                <li class="sperator">|</li>
+                <li><a href="./contest.html">Enjoy a game !</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>

@@ -1,96 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rancho&family=Redressed&display=swap');
- /* Some common CSS */
- html {
-     box-sizing:border-box; /* allow width and height to include everything up until the border */
-   }
-   *, *::before, *::after {
-     box-sizing:inherit;
-   }
- body{
-     font-family: 'Raleway', sans-serif;   
-     line-height: 1.2;
-     color:black;
- }
- h1,h2,h3,h4{
-     font-family: 'Redressed', cursive;
- }
- h1{
-     font-size: 5em;
- }
- h2{
-     font-size: 2em;
- }
- h3{
-     font-size: 1.75em;
- }
- h4{
-     font-size: 1.35em;
- }
 
- a{
-  text-decoration: none;
-  color: black;
-}
-a:hover{
-  color:#c7884b; 
-  text-decoration: underline;
-}
-
- .page-container{
-     max-width: 1200px;
-     margin:0 auto;
- }
- .hidden {
-     position:absolute;
-     left:-10000px;
-     width:1px;
-     height:1px;
- }
-
- header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo{
-  padding:1em;
-}
-
-.logo img{
-  height: 100px;
-  width:130px;
-}
-.main-menu{
-  font-size: 1.35em;
-}
-.main-menu{
-  list-style: none;
-  display: flex;
-  padding:1em;
-}
-.main-menu li {
-  padding-right: 1em;
-}
-
-.sub-menu{
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  list-style: none;
-  padding-left:0.5em;
-}
-.sub-menu li{
-  padding-top:1em;
-}
-.sub-menu li:last-child{
-  padding-bottom:1em;
-}
-.dropdown:hover .sub-menu{
-  display: block;
-}
 
 #main h1 {
   text-align: center;
@@ -102,7 +10,7 @@ a:hover{
 
 #main-menu {
   position: absolute;
-  left: 37.5%;
+  left: 34.5%;
 }
 
 #main-menu li {
@@ -113,7 +21,9 @@ a:hover{
 
 #main-menu a {
   text-decoration: none;
-  color: black;
+  color: #c7884b;
+  font-weight: bold;
+  margin-right: 2em;
 }
 
 #main-menu a:hover {
@@ -127,7 +37,12 @@ a:hover{
 }
 
 .flex-container >*{
-  border: 1px solid black;
+  border: 18px solid transparent;
+  border:1px solid #c7884b;
+}
+
+.flex-container > img{
+  border:none;
 }
 
 #menu-content{
@@ -178,122 +93,3 @@ img{
   padding-top:30px;
 }
 
-/* CSS for the Footer of page */
-footer{
-  font-family: 'Raleway', sans-serif;
-  margin-top:1em;
-  background-color:rgba(172, 168, 168,0.3) ;
-}
-#footer{
-  margin-top: 8em;
-}
-footer h3,h4{
-  font-family: 'Raleway', sans-serif;
-}
-.footer{
-  margin-top: 2em;
-  display: grid;
-  grid-template-columns:1fr 1fr 1fr ;
-  grid-gap: 3em;
- padding-bottom: 1.5em;
-}
-.footer ul{
-  list-style: none;
-  padding-right: 0;
-}
-
-
-.footer-logo{
-  text-align: center;
-  padding-top:1.3em;
-  padding-left: 1em;
-}
-.footer-logo img{
-  height: 130px;
-  width:150px;
-}
-
-
-.footer-contact{
-  margin-top:-2em; 
-  padding:2em;
-  background-color: #c7884b;
-  border-radius: 5px;
-  z-index: 2;
-}
-.footer-contact-container{
-  display: flex;
-  margin-bottom: 1em;
-}
-.footer-contact-container h3,h4{
-  margin: 0;
-}
-.footer-contact-container a:hover{
-  color:white; 
-  text-decoration: underline;
-}
-.contact-details{
-  padding-left: 4em;
-}
-.contact-details h3{
-  font-size: 1.35em;
-}
-.contact-details h4{
-  font-size: 1em;
-}
-.social-icons{
-  display: flex;
-  justify-content: center;
-}
-.social-icons a{
-  padding:1em;
-}
-.icons{
-  width: 30px;
-  height: 30px;
-}
-
-
-.subscription-form{
-  display: flex;
-}
-.subscription-form input{
-  padding: 1em;
-}
-.subscription-form button{
-  background-color: #c7884b;
-  border-color: #c7884b;
-}
-.subscription-form img{
-  width: 30px;
-}
-
-
-.line{
-  margin-left: 1em;
-  margin-right: 1em;
-  height: 2px;
-  background-color: #c7884b;
-}
-
-
-.bottom-footer{
-  display: flex;
-  justify-content: space-between;
-  padding:1.5em;
-  align-items: center;
-}
-.bottom-footer p{
-  margin: 0;
-}
-.sperator{
-  font-weight: bolder;
-}
-.bottom-menu{
-  list-style: none;
-  display: flex;
-  padding:1em;
-}
-.bottom-menu li {
-  padding-right: 1em;
-}

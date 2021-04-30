@@ -1,0 +1,88 @@
+h1 {
+    border-bottom: 1px solid #000;
+    margin: 0 auto 0.3em auto;
+}
+
+h3{
+    margin: 0.5em 0;
+}
+
+/* style on wrapper container */
+.wrapper-bookings{
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+span{
+  color: red;
+  margin-left: 10px;
+  font-size: 0.8em;
+}
+
+#required-field{
+    color: red;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+/* style on form */
+.form-bookings{
+     margin:0 auto;
+     width: 768px;
+     border-radius: 5px;
+     border: 2px solid #c7884b;
+     padding:1em;
+}
+.form-heading-bookings{
+     text-align: center;
+}
+.form-heading-bookings h2{
+     margin:0;
+}
+ .form-heading-bookings p{
+     margin: 0;
+}
+ .form-element-wrapper-bookings{
+     display: flex;
+     justify-content: space-between;
+     margin:0 auto;
+     padding-top:1em;
+}
+
+label{
+    font-weight: bold;
+}
+input,select{
+   display: block;
+   padding: 0.7em;
+   width: 300px;
+}
+ textarea{
+     display: block;
+     width: 100%;
+}
+
+.submit-section-bookings{
+    text-align: center;
+    padding-top:1em;
+}
+.submit-Button-bookings{
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: #9ad82f;
+    font-weight: bold;
+    border: 1px solid #9ad82f;
+}
+.submit-Button-bookings:hover{
+    color:  white;
+}
+
+/* style on icons */
+.icon-container {
+  margin-bottom: 5px;
+  padding: 7px 0;
+  font-size: 24px;
+}

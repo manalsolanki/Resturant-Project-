@@ -1,0 +1,65 @@
+h1,
+h2,
+#giftcards-text {
+  text-align: center;
+}
+
+#gallery {
+  padding: 10px;
+}
+#gallery img {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  width: 350px;
+  height: 225px;
+  border-radius: 10px;
+}
+#sending img {
+  width: 450px;
+  height: 275px;
+  border: 1px solid #c7884b;
+  border-radius: 10px;
+}
+#sending {
+  display: flex;
+}
+#info-container {
+  flex: 50%;
+  margin-left: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color: rgba(172, 168, 168, 0.3);
+  padding: 50px;
+}
+#card-container {
+  flex: 50%;
+  margin-left: 20px;
+  margin-right: 25px;
+  padding: 135px 50px 50px 50px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c7884b;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 40px;
+  background-color: #c7884b;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: black;
+}

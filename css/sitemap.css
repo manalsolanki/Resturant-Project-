@@ -1,0 +1,48 @@
+/* style on everything */
+*{
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* style on sitemap container */
+.sitemap-container{
+  background-color: #c7884b;
+  opacity: 0.8;
+  box-shadow: 5px 5px rgba(172, 168, 168,0.3);
+  font-size: 24px;
+  height: 450px;
+  padding: 4px;
+  max-width: 1200px;
+  margin:0 auto;
+}
+
+.sitemap-container a{
+  color: #000;
+}
+
+.sitemap-container a:hover{
+  color: #ef233c;
+}
+
+.sitemap-container h2{
+  color: #000;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.right-container ul li {
+  list-style: none;
+  padding-bottom: 2px;
+}
+
+.left-container{
+  display: inline-block;
+  padding: 8px;
+  margin: 0 auto auto 200px ;
+}
+
+.right-container{
+  display: inline-block;
+  margin: 0 auto auto 420px ;
+  padding: 8px;
+}

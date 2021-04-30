@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/events.css" />
+  <script src="js/events.js" charset="utf-8"></script>
+  <title>Holy Epic Steakhouse</title>
+</head>
+
+<body>
+  <!-- This is header of the page. -->
+  <header class="page-container">
+    <div class="logo">
+        <a href="./index.html">
+            <img src="./images/general-logUsed.png" alt="Logo of Holy Epic steakhouse">
+        </a>
+    </div>
+    <nav>
+        <ul class="main-menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./events.html">Events/Bookings</a></li>
+            <li><a href="./giftcards.html">Gift Cards</a></li>
+            <li><a href="./career.html">Careers</a></li>
+            <li class="dropdown"><a href="">Find Us</a>
+                <ul class="sub-menu">
+                    <li><a href="./locations.html">Locations</a></li>
+                    <li><a href="./aboutus.html">About Us</a></li>
+                    <li><a href="./contact-us.html">Contact Us</a></li>
+                    <li><a href="./sitemap.html">Site Map</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+  <!-- The main part of the page. -->
+  <main class="page-container">
+    <h1>Events</h1>
+ 
+  <div class="wrapper-container">
+  
+    <!-- first event card. -->
+    <div class="column-1">
+      <div class="card">
+        <img class="img-col" src="./images/events-musicConcert.jpg" alt="music concert">
+        <p class="card-title">Music Concert</p>
+        <div class="card-desc">
+          <img class="card-icons" src="./images/events-calendar.png" alt="calendar icon">
+          <p class="card-day">5 NOV 2021</p>
+          <img class="card-icons" src="./images/events-clock.png" alt="clock icon">
+          <p class="card-time">7 PM - 11 PM</p>
+        </div>
+        <p>Welcome folks to our music concert! On this special day, the rock-on band will perform live
+           in our restaurant. Hurry up to book your spot and enjoy the best music with your favourite dishes!</p>
+        <button class="card-btn" type="button" name="button"><span>Book Now</span></button>
+      </div>
+    </div>
+    <!-- second event card. -->
+    <div class="column-2">
+      <div class="card">
+        <img class="img-col" src="./images/events-celebration.jpg" alt="music concert">
+        <p class="card-title">Celebrating 10 years</p>
+        <div class="card-desc">
+          <img class="card-icons" src="./images/events-calendar.png" alt="calendar icon">
+          <p class="card-day">2 DEC 2021</p>
+          <img class="card-icons" src="./images/events-clock.png" alt="clock icon">
+          <p class="card-time">1 PM - 11 PM</p>
+        </div>
+        <p>Hurrrraay! Here we are pleased to announce that we are going to complete 10 years.
+          It's been fabulous journey with your love. Book your reservation on this very special day
+          and get discounts. There will be some super cool games and a magic show.</p>
+        <button class="card-btn" type="button" name="button"><span>Book Now</span></button>
+      </div>
+    </div>
+    <!-- third event card. -->
+    <div class="column-3">
+      <div class="card">
+        <img class="img-col" src="./images/events-newYear.jpg" alt="music concert">
+        <p class="card-title">New Year Celebration</p>
+        <div class="card-desc">
+          <img class="card-icons" src="./images/events-calendar.png" alt="calendar icon">
+          <p class="card-day">31 DEC 2021</p>
+          <img class="card-icons" src="./images/events-clock.png" alt="clock icon">
+          <p class="card-time">10 PM - 2 AM</p>
+        </div>
+        <p>BYE BYE 2021!! Like every year, we are ready with our new year celebration! We have invited
+          the best DJ and special surprise guest as usal. Be sure to book your tickets as early
+          as possible and enjoy the new year with us! </p>
+        <button class="card-btn" type="button" name="button"><span>Book Now</span></button>
+      </div>
+    </div>
+  </div>
+</main>
+  <!-- Be careful will giving margin bottom for the last element because I have margin top for the footer. -->
+
+
+  <!-- The footer of the page. -->
+  <footer id="footer" class="page-container">
+    <div class="footer">
+        <div class="footer-logo">
+            <img src="./images/general-logUsed.png" alt="Logo of Holy Epic steakhouse">
+            <p>
+                Our steakhouse provides the best steak in town. We serve steaks inspired by chinese cuisine on the menu.
+            </p>
+        </div>
+        <div class="footer-contact">
+            <div class="footer-contact-container">
+                <img class="icons" src="./images/general-auricular-of-phone.png" alt="Icon of phone">
+                <div class="contact-details">
+                    <h3>Call us</h3>
+                    <h4>000-000-0000</h4>
+                </div>
+            </div>
+            <div class="footer-contact-container">
+                <img class="icons" src="./images/general-placeholder.png" alt="Icon for locations">
+                <div class="contact-details">
+                    <h3>Address</h3>
+                    <h4>203 Humber College Blvd</h4>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img class="icons" src="./images/general-facebook.png" alt="Facebook Icon"></a>
+                <a href="#"><img class="icons" src="./images/general-instagram.png" alt="Instagram Icon"></a>
+                <a href="#"><img class="icons" src="./images/general-twitter.png" alt="Twitter Icon"></a>
+            </div>  
+        </div>
+        <div>
+            <h2>Newsletter</h2>
+            <p>Stay updated with all the special offers.</p>
+            <form class="subscription-form" action="homepage.html" method="POST">
+                <div class="form-elements">
+                    <label  class="hidden" for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" />
+                </div>
+                <button type="submit"><img src="./images/general-paper-plane.png" alt="Submit Button"></button>
+            </form>
+        </div>
+    </div>
+    <div class="line">
+    </div>
+    <div class="bottom-footer">
+        <p>&copy; 2021 Holy Epic Steakhouse. All Rights Reserved.</p>
+       <nav>
+            <ul class="bottom-menu">
+                <li><a href="./index.html">Home</a></li>
+                <li class="sperator">|</li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li class="sperator">|</li>
+                <li><a href="./events.html">Event/Bookings</a></li>
+                <li class="sperator">|</li>
+                <li><a href="./contest.html">Enjoy a game !</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>

@@ -5,10 +5,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Us</title>
-        <link rel="stylesheet" type="text/css" href="./css/aboutus.css">
+        <title>Gift Cards</title>
+        <link rel="stylesheet" type="text/css" href="./css/giftcards.css">
         <link rel="stylesheet" href="./css/global.css" />
-        <script type="text/javascript" src="./js/aboutus.js"></script>
+        <script type="text/javascript" src="./js/giftcards.js"></script>
     </head>
 
     <body>
@@ -40,18 +40,60 @@
 
         <!-- The main part of the page. -->
         <main class="page-container">
-            <h1>About Us</h1>
-            <div id="aboutus-text">
-                <p>Since our modest beginnings in 2020 with a little space in Toronto’s stylish Humber locale,
-                    ‘The Holy Epic Steakhouse’ was alwyas glad to have more and more of satisfied customers.
-                    We are a group of culinary experts and steak lovers who gathered from many countries around
-                    the world to open this one-of-a-kind restaurant in Canada. What defines our restaurant is
-                    to offer steak meals in several flavors in order to keep in line with the multiple cultures
-                    that exist in Canada. The restaurant is also pleased to offer its wonderful meals to tourists
-                    from all over the world to satisfy all tastes.</p>
+            <h1>Holy Epic Steakhouse Gift Cards</h1>
+            <div id="giftcards-text">
+                <p>Show your care to your beloved family and freinds and let them enjoy our amazing
+                    steak. Choose the photo and the amount and send right away
+                    to their email.</p>
             </div>
-            <img src="images/aboutuspage-1.jpg" id="res-image" alt="Photo of restaurant interior and steak">
-            <!-- source of all restaurant interior and steak photos is: https://unsplash.com/  -->
+            <div id="gallery">
+                <h2>Choose Image for Your Gift Card</h2>
+                <img id="pic1" src="./images/giftcards-1.jpg" alt="steak with fries and sauces">
+                <img id="pic2" src="./images/giftcards-2.jpg" alt="steak with vegitables">
+                <img id="pic3" src="./images/giftcards-3.jpg" alt="ribs with tomato and pickels">
+                <img id="pic4" src="./images/giftcards-4.jpg" alt="tray of steak with green tea">
+                <img id="pic5" src="./images/giftcards-5.jpg" alt="steak with lemon and bun">
+                <img id="pic6" src="./images/giftcards-6.jpg" alt="steak with vegi and fries">
+            </div>
+            <!-- source of all photos is: https://unsplash.com/  -->
+
+            <h2>Gift Card Details</h2>
+            <div id="sending">
+                <div id="info-container">
+                    <form>
+                        <label for="name">From</label>
+                        <input type="text" id="name" name="name" placeholder="Sender Name">
+
+                        <label for="email">Sender Email</label>
+                        <input type="text" name="email" placeholder="exmaple@gmail.com">
+
+                        <label for="name">To</label>
+                        <input type="text" id="name" name="name" placeholder="Receiver Name">
+
+                        <label for="email">Receiver Email</label>
+                        <input type="text" name="email" placeholder="exmaple@gmail.com">
+
+                        <label for="amount">Amount</label>
+                        <select id="amount" name="amount">
+                            <option value="10">$ 10</option>
+                            <option value="25">$ 25</option>
+                            <option value="50">$ 50</option>
+                            <option value="100">$ 100</option>
+                            <option value="200">$ 200</option>
+                            <option value="500">$ 500</option>
+                        </select>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write your message here "
+                            style="height:200px"></textarea>
+                    </form>
+                </div>
+                <div id="card-container">
+                    <img id="mainImg" src="./images/giftcards-7.PNG" alt="plain place for gift card image">
+                    <input type="submit" value="Buy & Send">
+                </div>
+            </div>
+
         </main>
 
         <!-- The footer of the page. -->
