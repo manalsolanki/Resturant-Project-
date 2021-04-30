@@ -23,6 +23,7 @@ textarea{
 #thanksMsg{
     display: none;
     text-align: center;
+
 }
 
 span{
@@ -31,3 +32,9 @@ margin-left: 10px;
 font-size: 0.8em;
 }
 
+#required-field{
+    color: red;
+    text-align: left;
+    font-weight: bold;
+
+}
